@@ -1,0 +1,1 @@
+web: sh -c "cd sovblog && gunicorn sovblog.wsgi"
