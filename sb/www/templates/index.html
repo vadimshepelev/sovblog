@@ -45,10 +45,10 @@
 	   <h5><a href='/'>Канвасы в ФБ: настрой сам!</a></h5>
        <h5><a href='/'>ВК повысил ставки в ключевых отраслях</a></h5>
 	  </section> 
-     </div>
+     </div>     
    <!--  <div class='col-md-offset-1'></div> -- вот так НЕ РАБОТАЕТ! это не создает сдвига. -->
    <!--  <div class='col-md-9 col-md-offset-1'>	-- а вот так РАБОТАЕТ! это сдвиг на 1 единицу + колонка в 9 единиц -->
-	  <div class='col-md-9'>
+	 <div class='col-md-8'>
 	  {% for post in posts %}
 	   <section>
 		<h2>{{post.title}}</h2> 
@@ -61,6 +61,7 @@
 	   </section>
 	  {% endfor %}
      </div>
+	 <div class='col-md-1'></div>
 	</div> 
    </div>	
    
