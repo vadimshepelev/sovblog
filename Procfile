@@ -1,1 +1,1 @@
-web: sh -c "cd sovblog && gunicorn sovblog.wsgi"
+web: sh -c "cd sb && gunicorn sb.wsgi"
